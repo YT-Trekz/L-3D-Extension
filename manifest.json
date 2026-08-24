@@ -5,7 +5,7 @@
   "author": "LOMMEL",
   "model": "MyModel",
   "description": "Generates 3D meshes from images or prompts.",
-  "generator_class": "L3DGenerator",
+  "generator_class": "L-3DGenerator",
   "repository": "https://github.com/YT-Trekz/L-3D-Extension",
   "variants": [
     { "id": "base", "label": "Base", "url": "https://huggingface.co/..." },
@@ -15,12 +15,9 @@
     {
       "id": "generate",
       "name": "Generate Mesh",
-      "inputs": [
-        { "name": "image", "type": "image" }
-      ],
-      "outputs": [
-        { "name": "mesh", "type": "mesh" }
-      ],
+      "input": "image",
+      "output": "mesh",
+
       "params_schema": [
         {
           "id": "slat_steps",
