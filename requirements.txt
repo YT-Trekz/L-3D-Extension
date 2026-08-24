@@ -4,3 +4,4 @@ pillow
 numpy
 trimesh
 scipy
+git+https://github.com
