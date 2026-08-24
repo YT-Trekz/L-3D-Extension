@@ -1,5 +1,6 @@
 {
   "id": "l3d-extension-lommel",
+  "generator_class": "MyGenerator",
   "name": "L-3D Extension",
   "version": "1.0.0",
   "author": "LOMMEL",
