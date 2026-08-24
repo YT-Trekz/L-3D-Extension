@@ -13,13 +13,21 @@
   ],
   "nodes": [
     {
-      "id": "generate_textured_mesh",
-      "name": "Foto naar 3D (Met Textuur)",
-      "inputs": [
-        { "name": "image", "type": "image" }
-      ],
-      "outputs": [
-        { "name": "mesh", "type": "mesh" }
+      "id": "generate",
+      "name": "Generate Mesh",
+      "input": "image",
+      "output": "mesh",
+
+      "params_schema": [
+        {
+          "id": "slat_steps",
+          "label": "Shape Steps",
+          "type": "int",
+          "default": 25,
+          "min": 1,
+          "max": 50,
+          "tooltip": "Diffusion steps for the geometry SLaT (fine details)."
+        },
       ]
     }
   ]
