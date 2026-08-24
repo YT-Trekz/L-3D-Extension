@@ -1,10 +1,11 @@
 {
+  "id": "l3d-extension-lommel",
   "name": "L-3D Extension",
   "version": "1.0.0",
   "author": "LOMMEL",
   "model": "MyModel",
   "description": "Genereert 1-op-1 3D meshes inclusief texturen op basis van een foto.",
-  "repository": "https://github.com/YT-Trekz/L-3D-Extension",
+  "repository": "https://github.com",
   "type": "model",
   "variants": [
     { 
