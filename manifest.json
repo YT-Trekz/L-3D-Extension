@@ -1,35 +1,13 @@
 {
-  "id": "l3d-extension-lommel",
-  "generator_class": "MyGenerator",
+  "id": "lommel",
   "name": "L-3D Extension",
   "version": "1.0.0",
   "author": "LOMMEL",
   "model": "MyModel",
-  "description": "Genereert 1-op-1 3D meshes inclusief texturen op basis van een foto.",
+  "description": "Generates 3D meshes from images or prompts.",
   "repository": "https://github.com/YT-Trekz/L-3D-Extension",
-  "type": "model",
   "variants": [
-    { 
-      "id": "base", 
-      "label": "Base (Hoge Kwaliteit Texture)", 
-      "url": "https://huggingface.co" 
-    },
-    { 
-      "id": "fast", 
-      "label": "Fast (Snelle Textuur Preview)", 
-      "url": "https://huggingface.co" 
-    }
-  ],
-  "nodes": [
-    {
-      "id": "generate_textured_mesh",
-      "name": "Foto naar 3D (Met Textuur)",
-      "inputs": [
-        { "name": "image", "type": "image" }
-      ],
-      "outputs": [
-        { "name": "mesh", "type": "mesh" }
-      ]
-    }
+    { "id": "base", "label": "Base", "url": "https://huggingface.co/..." },
+    { "id": "fast", "label": "Fast", "url": "https://huggingface.co/..." }
   ]
 }
