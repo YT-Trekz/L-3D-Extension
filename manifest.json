@@ -10,5 +10,17 @@
   "variants": [
     { "id": "base", "label": "Base", "url": "https://huggingface.co/..." },
     { "id": "fast", "label": "Fast", "url": "https://huggingface.co/..." }
+  ],
+  "nodes": [
+    {
+      "id": "generate_textured_mesh",
+      "name": "Foto naar 3D (Met Textuur)",
+      "inputs": [
+        { "name": "image", "type": "image" }
+      ],
+      "outputs": [
+        { "name": "mesh", "type": "mesh" }
+      ]
+    }
   ]
 }
